@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const request = axios.create({
-    baseURL: 'http://localhost:80',
+    baseURL: 'https://mern-task-app-api-8ty5.onrender.com',
     validateStatus: () => true,
     headers: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}
 })
